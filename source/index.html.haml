@@ -7,10 +7,22 @@
 %path.middleman-logo__bottom-left-bar{d: "M0 300l200 40v-30L0 280z", "fill-opacity" => ".45"}
 %path.middleman-logo__bottom-right-bar{d: "M200 340l200-40v-20l-200 30z", fill: "#fff"}
 %h1
-    Middleman is Running
-= link_to("Read Documentation", "https://middlemanapp.com/basics/templating_language/", target: "_blank")      
 
-.projects
-    - data.projects.each do |project|
-        %h4= project[:name]
-        %p= project[:description]
+.about_me 
+    %H1 About me 
+    %p My name is William Schneiderman
+    %p I am currently studying at craft academy to become a juinior developer
+    %p I am originally from Santa barbara, CA, USA.
+
+.margin    
+    
+.class_work
+          
+    = partial 'partials/projects'
+    
+.margin
+
+
+.git_hub
+    %h1
+        = link_to("Check out my Github!", "https://github.com/schneiderman805?tab=repositories")

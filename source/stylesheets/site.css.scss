@@ -1,6 +1,7 @@
 body {
-  background-color: #fbc547;
-  color: #333;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/A_colorful_view_of_airglow_layers_at_Earth%27s_horizon.jpg/1600px-A_colorful_view_of_airglow_layers_at_Earth%27s_horizon.jpg");
+  background-size: cover;
+  color: white;
   font-family: -apple-system, BlinkMacSystemFont, "Avenir Next", "Avenir",
     "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans",
     "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu",
@@ -10,11 +11,12 @@ body {
 }
 
 a {
-  color: rgba(#000, 0.7);
+
+  color: rgba(rgb(255, 255, 255), 0.7);
 
   &:focus,
   &:hover {
-    color: rgba(#000, 0.6);
+    color: rgba(rgb(255, 0, 0), 0.6);
   }
 }
 
@@ -22,3 +24,33 @@ a {
   margin-bottom: 1rem;
   width: 10rem;
 }
+
+.about_me{
+  background-color: #535353;
+  border-radius: .5rem;
+  box-shadow: 0 5px 5px 0 rgb(255, 255, 255),
+  0 5px 15px 0 rgb(255, 255, 255);
+}
+.margin{
+  margin-bottom: 5rem;
+}
+
+.class_work{
+  background-color: #535353;
+  border-radius: .5rem;
+  box-shadow: 0 5px 5px 0 rgb(255, 255, 255),
+  0 5px 15px 0 rgb(255, 255, 255);
+}
+
+.margin{
+  margin-bottom: 5rem;
+}
+
+.git_hub{
+  background-color: #535353;
+  border-radius: .5rem;
+  box-shadow: 0 5px 5px 0 rgb(255, 255, 255),
+  0 5px 15px 0 rgb(255, 255, 255);
+  
+}
+

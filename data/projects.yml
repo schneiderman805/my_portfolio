@@ -1,7 +1,19 @@
 
 
 - name: My First Website
-  description: Simple HTML5 site I've build during the PrepCourse
-
+  description: Simple HTML5 site I've build during the PrepCourse.
+  
 - name: FizzBuzz
-  description: My first Test driven ruby project
+  description: My first Test driven ruby project.
+
+- name: Adress Book
+  description: A simple address book that stores contacts. 
+
+- name: Library Challange 
+  description: A program that stores book information in a library to later be called on, checked out or returned.
+
+- name: Atm Challange
+  description: A working ATM with ability to withdraw and deposit funds.
+
+- name: BMI Calculator
+  description: A BMI calculator that calculates your body mass index and returns a status.
