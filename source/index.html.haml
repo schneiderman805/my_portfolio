@@ -11,7 +11,7 @@
 %h2
 
     .about_me 
-        %H1 About me
+        %H1 About me:
         My name is William Schneiderman,
         I am currently studying at craft academy to become a juinior developer
         and I am originally from Santa barbara, CA, USA.
@@ -19,12 +19,14 @@
     .margin    
         
     .class_work
-            
+
+    
         = partial 'partials/projects'
         
     .margin
 
     .contact_me
+        Contact me
         %form{:method => "POST", :name => "contact", :netlify => ""}
         %p
             %label
@@ -34,12 +36,7 @@
             %label
             Your Email:
             %input{:name => "email", :type => "email"}/
-        %p
-            %label
-            Your Role:
-            %select{:multiple => "multiple", :name => "role[]"}
-            %option{:value => "leader"} Leader
-            %option{:value => "follower"} Follower
+    
         %p
             %label
             Message:
@@ -61,6 +58,6 @@
     .git_hub
         
         %h1
-            = link_to("Check out my Github!", "https://github.com/schneiderman805?tab=repositories")
+            = link_to("Check out my full Github!", "https://github.com/schneiderman805?tab=repositories")
 
 
