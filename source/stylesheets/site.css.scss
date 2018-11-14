@@ -26,7 +26,9 @@ a {
 }
 
 .about_me{
-  background-color: #535353;
+  background-color: rgba(#535353, 0.7);
+  margin-right: 500px;
+  margin-left: 500px;
   border-radius: .5rem;
   box-shadow: 0 5px 5px 0 rgb(255, 255, 255),
   0 5px 15px 0 rgb(255, 255, 255);
@@ -36,7 +38,21 @@ a {
 }
 
 .class_work{
-  background-color: #535353;
+  background-color: rgba(#535353, 0.7);
+  margin-right: 450px;
+  margin-left: 450px;
+  border-radius: .5rem;
+  box-shadow: 0 5px 5px 0 rgb(255, 255, 255),
+  0 5px 15px 0 rgb(255, 255, 255);
+}
+
+.margin{
+  margin-bottom: 5rem;
+}
+
+.contact_me{
+  background-color: rgba(#535353, 0.7);margin-right: 600px;
+  margin-left: 600px;
   border-radius: .5rem;
   box-shadow: 0 5px 5px 0 rgb(255, 255, 255),
   0 5px 15px 0 rgb(255, 255, 255);
@@ -47,10 +63,11 @@ a {
 }
 
 .git_hub{
-  background-color: #535353;
+  background-color: rgba(#535353, 0.7);
+  margin-right: 600px;
+  margin-left: 600px;
   border-radius: .5rem;
   box-shadow: 0 5px 5px 0 rgb(255, 255, 255),
   0 5px 15px 0 rgb(255, 255, 255);
-  
 }
 
