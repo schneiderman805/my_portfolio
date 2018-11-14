@@ -7,7 +7,9 @@
 %path.middleman-logo__right-m{:d => "M400 78v184l-45 5V152l-45 83-47-83v129l-53 7V52l57 8 43 83 43-70z", fill: "#fff"}
 %path.middleman-logo__bottom-left-bar{d: "M0 300l200 40v-30L0 280z", "fill-opacity" => ".45"}
 %path.middleman-logo__bottom-right-bar{d: "M200 340l200-40v-20l-200 30z", fill: "#fff"}
+
 %h2
+
     .about_me 
         %H1 About me
         My name is William Schneiderman,
@@ -23,12 +25,33 @@
     .margin
 
     .contact_me
+        %form{:method => "POST", :name => "contact", :netlify => ""}
+        %p
+            %label
+            Your Name:
+            %input{:name => "name", :type => "text"}/
+        %p
+            %label
+            Your Email:
+            %input{:name => "email", :type => "email"}/
+        %p
+            %label
+            Your Role:
+            %select{:multiple => "multiple", :name => "role[]"}
+            %option{:value => "leader"} Leader
+            %option{:value => "follower"} Follower
+        %p
+            %label
+            Message:
+            %textarea{:name => "message"}
+        %p
+            %button{:type => "submit"} Send
 
-        %h3 My contact information
-        %p Email:
-        %a{:href => "mailto:william.m.schneiderman@gmail.com"} william.m.schneiderman@gmail.com
-        %p Phone:
-        %a{:href => "tel:+46 73-943 86 81"} +46 73-943 86 81 
+        /%h3 My contact information
+        /%p Email:
+        /%a{:href => "mailto:william.m.schneiderman@gmail.com"} william.m.schneiderman@gmail.com
+        /%p Phone:
+        /%a{:href => "tel:+46 73-943 86 81"} +46 73-943 86 81 
         
 
 
@@ -39,3 +62,5 @@
         
         %h1
             = link_to("Check out my Github!", "https://github.com/schneiderman805?tab=repositories")
+
+
