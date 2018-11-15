@@ -3,23 +3,30 @@
 - name: My First Website
   description: Simple HTML5 site I've build during the PrepCourse.
   github: https://github.com/schneiderman805/schneiderman805.github.io
+  website: https://schneiderman805.github.io/address_book/
 
 - name: FizzBuzz
   description: My first Test driven ruby project.
   github: https://github.com/schneiderman805/fizzbuzz_js
+  website: https://schneiderman805.github.io/address_book/
 
 - name: Adress Book
   description: A simple address book that stores contacts. 
   github: https://github.com/schneiderman805/address_book
+  website: https://schneiderman805.github.io/address_book/
+
 
 - name: Library Challange 
   description: A program that stores book information in a library to later be called on, checked out or returned.
   github: https://github.com/schneiderman805/library-challenge
+  website: 
 
 - name: Atm Challange
   description: A working ATM with ability to withdraw and deposit funds.
   github: https://github.com/schneiderman805/atm_challange
+  website: 
 
 - name: BMI Calculator
   description: A BMI calculator that calculates your body mass index and returns a status.
-  github: https://github.com/schneiderman805/BMI_Challange
+  github: https://github.com/schneiderman805/BMI_Challange  
+  website: https://schneiderman805.github.io/address_book/

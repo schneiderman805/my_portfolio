@@ -1,5 +1,12 @@
 .projects
   - data.projects.each do |project|
-    %a(href="#{project[:github]}") 
-      %h4= project[:name]
-    %p= project[:description]
+    .project_box
+      %a(href="#{project[:github]}") 
+        %h4= project[:name]
+      .web_link
+        - if project[:website] != nil
+          %h6
+            %a(href="#{project[:website]}") View this website
+      %h6      
+        %p= project[:description]
+    
