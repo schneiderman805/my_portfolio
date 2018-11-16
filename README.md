@@ -10,11 +10,11 @@ I would like to navigate to those areas
 
 
 As a possible employer
-When I click on those areas 
-I would expect to be navigated to that section
+I would like click links to Github  
+I would expect to be navigated to that site
 
 As a possible employer
-When I arrive at those sections 
-I would like to see the more information
+When I arrive at those sites
+I would like to see more information
 
 

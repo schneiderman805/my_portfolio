@@ -49,23 +49,21 @@
 
     .contact_me
         Contact me
-        %form{:method => "POST", :name => "contact", :netlify => ""}
+    %form{method: "POST", name: "contact", netlify: ""}
         %p
             %label
             Your Name:
-            %input{:name => "name", :type => "text"}/
+            %input{name: "name", type: "text"}/
         %p
             %label
             Your Email:
-            %input{:name => "email", :type => "email"}/
-    
+            %input{name: "email", type: "email"}/
         %p
             %label
             Message:
-            %textarea{:name => "message"}
-
+            %textarea{name: "message"}
         %p
-            %button{:type => "submit"} Send
+            %button{type: "submit"} Send
 
         /%h3 My contact information
         /%p Email:
@@ -77,6 +75,10 @@
 
 
     .margin
+
+    .previous_jobs
+
+        -# = partial 'partials/job'
 
     .git_hub
         
