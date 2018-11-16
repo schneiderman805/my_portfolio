@@ -1,7 +1,7 @@
 
 
 - name: My First Website
-  description: Simple HTML5 site I've build during the PrepCourse.
+  description: A simple HTML5 site I've built during the first week of PrepCourse.
   github: https://github.com/schneiderman805/schneiderman805.github.io
   website: https://schneiderman805.github.io/address_book/
 
@@ -17,7 +17,7 @@
 
 
 - name: Library Challange 
-  description: A program that stores book information in a library to later be called on, checked out or returned.
+  description: A program that stores book information in a library to later be called on, to check out or return.
   github: https://github.com/schneiderman805/library-challenge
   website: 
 

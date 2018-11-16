@@ -6,7 +6,6 @@ body {
     "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans",
     "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu",
     "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
-  padding: 18vh 1rem;
   text-align: center;
 }
 
@@ -20,10 +19,7 @@ a {
   }
 }
 
-.middleman-logo {
-  margin-bottom: 1rem;
-  width: 10rem;
-}
+
 
 .about_me{
   background-color: rgba(#535353, 0.8);
@@ -32,7 +28,8 @@ a {
   border-radius: .5rem;
   box-shadow: 0 25px 25px 0 rgb(0, 0, 0),
   0 5px 15px 0 rgb(0, 0, 0);
-  padding-bottom: 25px;
+  padding-bottom: 1px;
+  padding-top: 1px;
 }
 .margin{
   margin-bottom: 5rem;
@@ -102,4 +99,18 @@ a {
   padding-top: 1px;
   padding-bottom: 1px;
 }
+
+.heading {
+  margin-right: 100rem;
+  text-align: left;
+  padding-left: 100px;
+  padding-top: 10px; 
+  text-align: left; 
+
+
+}
+
+
+
+
 
