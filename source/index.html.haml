@@ -47,6 +47,25 @@
         
     .margin
 
+
+    .work
+        
+        .class_work
+            My work history
+            %br
+            %br
+            %a{href: "https://drive.google.com/open?id=1XLRQZvJLx2M_SNMTHUh1ncyYJBFze8P4"} Click for resume viewer
+                
+
+            = partial 'partials/work'
+        
+    .margin
+
+
+
+
+    .margin
+
     .contact_me
         Contact me
         %form{method: "POST", name: "contact", netlify: ""}
@@ -69,16 +88,7 @@
         /%p Email:
         /%a{:href => "mailto:william.m.schneiderman@gmail.com"} william.m.schneiderman@gmail.com
         /%p Phone:
-        /%a{:href => "tel:+46 73-943 86 81"} +46 73-943 86 81 
-        
-
-
-
-    .margin
-
-    .previous_jobs
-
-        -# = partial 'partials/job'
+        /%a{:href => "tel:+46 73-943 86 81"} +46 73-943 86 81
 
     .git_hub
         
